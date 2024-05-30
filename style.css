@@ -1,0 +1,587 @@
+
+/* styles applied to Universal selectors */
+body{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-size: 20px;
+  overflow-x: hidden;
+  line-height: 1.7em;
+  background-color: rgb(246,246,246);
+
+}
+
+
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 25px;
+}
+
+/* centers the content of the web page with spaces around the element on big screens */
+.container{
+  max-width: 1200px;
+  padding: 10px 30px;
+  margin: 0px auto;
+}
+
+/* Gives each section a uniform margin vertically */
+.section-separator{
+  margin-top: 2em;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
+
+.purple-text{
+  color:  #5040A1;;
+}
+
+/* styles applied to the header section */
+header .purple-bg{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: #5040A1;
+  border-radius: 50%;
+  left: 1200px;
+  top: -25px;
+  display: none;
+}
+
+/* resizing  the header section image */
+.header-img{
+  height: 450px;
+  width: 100%;
+  position: relative;
+}
+/* =====================THE NFT WORKSHOP ===========================
+*/
+
+.NFT-workshop{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.NFT{
+  width: 70%;
+}
+
+.NFT-heading .bg-red{
+  display: none;
+}
+
+.NFT > h3{
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 5px;
+}
+
+.Nft-post{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+}
+
+
+.Nft-post img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.Nft-post #poster-name{
+  margin-right: 40px;
+  font-weight: 700;
+}
+
+.Nft-post #post-date{
+  color: #C1C1C1;
+}
+
+/* This section will only be visible on the mobile screen */
+.DTD-1{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  display: none;
+}
+/* ================================================== */
+
+
+.review{
+  width: 30%;
+  background-color: rgb(255,255,255);
+  padding: 10px 40px;
+  border-radius: 20px ;
+  border: 1px solid rgba(128,128,128 0.5);
+  box-shadow: 0px 0px 1px rgba(4, 2, 1, 0.7 );
+  box-sizing: border-box;
+
+}
+
+
+
+
+.posted-review{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+.posted-review img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 30px;
+  transform: translateY(10px);
+}
+
+.posted-review p {
+    line-height: 2em;
+}
+.posted-review h5{
+  margin-top: -25px;
+  color: gray;
+  font-weight: 300;
+}
+
+.fa-plus{
+  color: white;
+  position: relative;
+  background-color: #5040A1;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 20px;
+  font-size: 23px;
+}
+
+.event{
+  margin-top: -20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.event-item{
+  grid-column: span 2;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 40px;
+}
+
+.event-item img{
+  transform: translateY(-5px);
+}
+
+.event-item p{
+  margin-left: 20px;
+}
+
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-workshop {
+  line-height: 1.5em;
+  width: 60%;
+  margin-top: -20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* FAQ section */
+
+.FAQ{
+  width: 65%;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px 10px;
+  height: 30px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 20px;
+  border: 1px solid rgba(128,128,128 0.5);
+  box-shadow: 0px 0px 1px rgba(4, 2, 1, 0.7 );
+}
+.FAQ-para{
+  margin-top: 2em;
+}
+
+textarea{
+  width: 67%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.post{
+  margin-bottom: 200px;
+  background-color: #5040A1;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(150, 113, 113);
+  font-weight: 600;
+}
+
+
+.purple-text span{
+  font-weight: 550;
+}
+
+
+.count-down .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+/* DTD means date, time and duration   */
+.DTD{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.DTD li{
+  margin-right: 30px;
+}
+
+.DTD .purple-text{
+  font-weight: 700;
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.price button{
+  padding: 15px 30px;
+  background-color: #5040A1;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 100px;
+  transform: translateX(20px);
+}
+
+.count-down{
+  background-color:  rgba(255,255,255) ;
+  border-radius: 65px 60px 0px 0px;
+  border: 1px solid rgba(128,128,128 0.5);
+  box-shadow: 0px 0px 1px rgba(4, 2, 1, 0.7 );
+  position: fixed;
+  width: 100%;
+  bottom: -10px;
+  width: 100%;
+  height: 150px;
+  z-index: 1000; 
+  line-height: 1em;
+  font-weight: 700;}
+
+
+.price .purple-text{
+  font-weight: 700;
+}
+
+/* media screen for ipad pro */
+@media (max-width: 1095px){
+
+  body{
+    font-size: 16px;
+    overflow-y: scroll;
+    overflow: scroll;
+  }
+
+  .header-img{
+    height: 350px;
+  }
+
+  .NFT{
+    width: 60%;
+  }
+  .review{
+    width: 40%;
+    padding: 10px 30px;
+  }
+
+  .about-workshop {
+    line-height: 1.5em;
+    width: 60%;
+    margin-top: -20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .price button{
+    padding: 15px 30px;
+    margin-left: 80px;
+    transform: translateX(5px);
+  }
+  
+}
+
+/* Media query for mini-ipad */
+@media (max-width: 920px){
+
+  body{
+    font-size: 16px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .header-img{
+    height: 350px;
+  }
+
+  .NFT{
+    width: 50%;
+  }
+  .review{
+    width: 45%;
+    padding: 10px 25px;
+  }
+
+  .fa-plus{
+    color: white;
+    position: relative;
+    background-color: #5040A1;
+    padding: 7px;
+    border-radius: 50%;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  
+
+  .price button{
+    padding: 15px 30px;
+    margin-left: 80px;
+    transform: translateX(5px);
+  }
+  
+  .about-workshop {
+    width: 50%;
+   
+  }
+
+  .event{
+    margin-top: -10px;
+    gap: 10px;
+  }
+  .event-item{
+    height: 60px;
+    font-size: 15px;
+    line-height: 1.5em;
+  }
+  
+  .event-item img{
+    transform: translateY(-5px);
+  }
+  
+  .event-item p{
+    margin-left: 15px;
+  }
+}
+
+/* media query for mobile views */
+@media (max-width: 720px){
+main {
+  background-color: white;
+  border-radius: 55px 55px 0px 0px;
+  position: relative;
+  top: -40px;
+  padding: 10px auto;
+}
+
+body{
+  font-size: 17px;
+  line-height: 1.5em;
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+.NFT-heading .bg-red{
+  display: flex;
+  color: white;
+  padding: 2px 7px;
+  background-color: rgba(255, 0, 0,0.75);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+.NFT-heading{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container{
+  padding: 10px 20px;
+  margin: 0px auto;
+  overflow-x: hidden;
+}
+
+
+
+.header-img{
+  height: 300px;
+}
+
+.NFT-workshop{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.NFT{
+width: 100%;
+}
+
+.NFT > h3{
+font-size: 21px;
+padding-top:20px;
+}
+
+
+.Nft-post #post-date{
+margin-left: 30px;
+}
+
+.event-item{
+  height: 40px;
+  font-size: 20px;
+}
+
+.DTD-1{
+display: flex;
+width:100%;
+}
+
+.first-review{
+display: none;
+}
+
+.review{
+width: 85%;
+padding: 40px 0px;
+margin: 0 auto;
+border: none;
+box-shadow:none ;
+margin-left: 0;
+}
+
+.posted-review img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: ;
+  transform: translateY(10px);
+}
+
+.about{
+width: 100%;
+margin: 10px auto;
+display: block;
+box-sizing: border-box
+}
+
+.about-workshop {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 18px;
+  }
+
+
+.event{
+margin-top: -20px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+
+
+.event-item{
+grid-column: span 4;
+height: 50px;
+}
+
+.event-item img{
+transform: translateY(-2px);
+}
+
+
+
+.DTD{
+display: none;
+}
+
+.FAQ{
+width: 95%;
+margin: 20px auto;
+
+}
+.FAQ-para{
+margin-top: 2em;
+width: 90%;
+}
+
+textarea{
+width: 82%;
+margin-bottom: 20px;
+margin-top: 20px;}
+
+
+
+.price{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+
+
+.price button{
+  margin-right: 10px;
+  padding: 15px 30px;
+}
+.count-down{
+  background-color:  rgba(255,255,255) ;
+  border-radius: 65px 60px 0px 0px;
+  border: 1px solid #808080;
+  box-shadow: 5px 2px 5px rgba(4, 2, 1, 0.7 );
+  position: fixed;
+  width: 100%;
+  bottom: -10px;
+  width: 100%;
+  height: 100px;
+  z-index: 1000; 
+  padding-bottom:40px}
+}
+
